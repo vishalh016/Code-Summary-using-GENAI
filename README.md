@@ -7,33 +7,33 @@ Output Prediction: Provides insights into what outputs can be expected from the 
 Customizable Prompts: Easily adjust the summarization template to fit specific needs or focus areas.
 
 ## Installation
-###Clone the repository:
+### Clone the repository:
   git clone https://github.com/vishalh016/Code-Summary-using-GENAI.git
   cd code-summarizer
 
-###Create and activate a virtual environment (optional but recommended):
+### Create and activate a virtual environment (optional but recommended):
   python -m venv venv
   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-###Install the required dependencies:
+### Install the required dependencies:
   pip install -r requirements.txt
 
-###Set up your environment variables:
+### Set up your environment variables:
   Create a .env file in the root directory.
-###Add your OpenAI API key:
+### Add your OpenAI API key:
   OPENAI_API_KEY=your-openai-api-key
 
 ## Usage
-###Summarize a Python Script
+### Summarize a Python Script
   Place your Python script in the same directory as the summarizer.py file or specify the path to your script.
 
-###Run the summarizer:
+### Run the summarizer:
   python summarizer.py
   
-###Follow the prompts:
+### Follow the prompts:
   Enter the path to the Python script you want to summarize.
   Specify the output file name where the summary will be saved.
-###View the Summary:
+### View the Summary:
   The summary, along with explanations and expected outputs, will be printed to the console and saved in the specified output file.
 
 Example
