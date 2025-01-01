@@ -1,5 +1,5 @@
 # Code Summarizer
-This repository contains a Python-based code summarizer project that leverages the OpenAI API and langchain library to automatically generate natural language summaries for Python scripts. The summarizer not only explains the functionality of the code but also provides an overview of the expected output.<BR
+This repository contains a Python-based code summarizer project that leverages the OpenAI API and langchain library to automatically generate natural language summaries for Python scripts. The summarizer not only explains the functionality of the code but also provides an overview of the expected output. <BR>
 
 ## Features
 Text-to-Code Summary: Automatically generate a concise and clear summary of any Python script.
